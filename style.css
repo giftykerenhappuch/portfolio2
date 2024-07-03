@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(41, 40, 40);
+    transition: opacity 1s ease-out;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    width: 200px; /* Adjust the width as needed */
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    top: 200px;
+    left: 0;
+    padding: 20px;
+}
+
+.navbar ul li {
+    color: white;
+    cursor: pointer;
+}
+
+.hero img {
+    position: relative;
+    top: -35rem;
+    left: 60rem;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.hero h3, .hero p {
+    color: white;
+    position: relative;
+    top: -57rem;
+    max-width: 500px;
+    left: 22rem;
+    line-height: 2.5rem;
+}
+
+.hero span {
+    color: rgb(211, 131, 144);
+}
+
+.button1 {
+    color: black;
+    position: relative;
+    top: -55rem;
+    max-width: 600px;
+    left: 22rem;
+    padding: 0.7rem;
+    background-color: rgb(211, 131, 144);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: green;
+}
+
+.button1 a {
+    color: white;
+    text-decoration: none;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    max-width: 1000px;
+    gap: 50px;
+}
+.skill1{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    max-height: 400px;
+    position: relative;
+    left: 15rem;
+    top:-36rem;
+    color: white;
+    background-color: black;
+    line-height: 1.5rem;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.skill {
+    position: relative;
+    left: 15rem;
+    top: -38rem;
+    color: white;
+    font-size: 2rem;
+}
+.skill1 img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+.skill2 img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+.skill3 img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+.skill4 img{
+    width: 50px;
+    height: 50px;
+}
+.skill5 img{
+    width: 50px;
+    height: 50px;
+}
+.skill6 img{
+    width: 50px;
+    height: 50px;
+}
+.skill1 span{
+    position: relative;
+    left: 1.5rem;
+    color: rgb(189, 115, 127);
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.skill2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 300px;
+    max-height: 400px;
+    position: relative;
+    left: 15rem;
+    top:-36rem;
+    color: white;
+    background-color: black;
+    line-height: 1.5rem;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.skill2 span{
+    position: relative;
+    left: 1.5rem;
+    color: rgb(189, 115, 127);
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.skill3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 300px;
+    max-height: 400px;
+    position: relative;
+    left: 15rem;
+    top:-36rem;
+    color: white;
+    background-color: black;
+    line-height: 1.5rem;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.skill3 span{
+    position: relative;
+    left: 2.5rem;
+    color: rgb(189, 115, 127);
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.skill4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 300px;
+    max-height: 400px;
+    position: relative;
+    left: 15rem;
+    top:-36rem;
+    color: white;
+    background-color: black;
+    line-height: 1.5rem;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.skill4 span{
+    position: relative;
+    left: 1.5rem;
+    color: rgb(189, 115, 127);
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.skill5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 300px;
+    max-height: 400px;
+    position: relative;
+    left: 15rem;
+    top:-36rem;
+    color: white;
+    background-color: black;
+    line-height: 1.5rem;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.skill5 span{
+    position: relative;
+    left: 1.5rem;
+    color: rgb(189, 115, 127);
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.skill6{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 300px;
+    max-height: 400px;
+    position: relative;
+    left: 15rem;
+    top:-36rem;
+    color: white;
+    background-color: black;
+    line-height: 1.5rem;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.skill6 span{
+    position: relative;
+    left: 1.5rem;
+    color: rgb(189, 115, 127);
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.skill1:hover, .skill2:hover, .skill3:hover, .skill4:hover, .skill5:hover, .skill6:hover {
+    background-color: rgb(247, 192, 201);
+}
+.project1{
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+}
+.pro{
+    font-size: 2rem;
+    color: white;
+}
+.Project1{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    position: relative;
+    left: 20rem;
+    top: -37rem;
+    background-color: black;
+    padding: 2rem;
+    border-radius: 20px;
+}
+.Project1 h3{
+    font-size: 1.5rem;
+    color: white;
+    position: relative;
+    left: 3rem;
+}
+.Project1 img{
+    width: 300px;
+    height: 200px;
+}
+.Project1 p{
+   font-size: 1rem;
+   line-height: 1.5rem;
+   color: white;
+}
+.Project2{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    position: relative;
+    left: 20rem;
+    top: -37rem;
+    background-color: black;
+    padding: 2rem;
+    border-radius: 20px;
+}
+.Project2 h3{
+    font-size: 1.5rem;
+    color: white;
+    position: relative;
+    left: 3rem;
+}
+.Project2 img{
+    width: 300px;
+    height: 200px;
+}
+.Project2 p{
+   font-size: 1rem;
+   line-height: 1.5rem;
+   color: white;
+}
+.Project3{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    position: relative;
+    left: 20rem;
+    top: -37rem;
+    background-color: black;
+    padding: 2rem;
+    border-radius: 20px;
+}
+.Project3 h3{
+    font-size: 1.5rem;
+    color: white;
+    position: relative;
+    left: 3rem;
+}
+.Project3 img{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: -2rem;
+}
+.Project3 p{
+   font-size: 1rem;
+   line-height: 1.5rem;
+   color: white;
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    gap: 30px;
+    position: relative;
+    top: -30px;
+}
+.Project1:hover, .Project2:hover, .Project3:hover {
+    background-color: rgb(247, 192, 201);
+}
+.pro {
+    position: relative;
+    left: 15rem;
+    top: -39rem;
+    color: white;
+    font-size: 2rem;
+}
+.awa {
+    position: relative;
+    left: 38rem;
+    top: -38rem;
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.aw span{
+    position: relative;
+    left: 15rem;
+    top: -38rem;
+    color: white;
+    font-size: 2rem;
+    color: rgb(189, 115, 127);
+}
+.aw1 span{
+    position: relative;
+    left: 15rem;
+    top: -36rem;
+    color: white;
+    font-size: 2rem;
+    color: rgb(189, 115, 127);
+}
+.aw p{
+    position: relative;
+    left: 15rem;
+    top: -37rem;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding-top: 1rem;
+}
+.aw1 p{
+    position: relative;
+    left: 15rem;
+    top: -37rem;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding-top: 1rem;
+}
+.aw,.aw1{
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.award{
+    gap:20px;
+    position: relative;
+    left: 15rem;
+}
+.con {
+    position: relative;
+    left: 42rem;
+    top: -38rem;
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.resume h1 {
+    position: relative;
+    left: 44rem;
+    top: -35rem;
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.hero1 p {
+    position: relative;
+    left: 30rem;
+    top: -38rem;
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+.resume p {
+    position: relative;
+    left: 37rem;
+    top: -35rem;
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+.button2 {
+    position: relative;
+    left: 45rem;
+    top: -35rem;
+    color: black;
+    padding: 0.7rem;
+    background-color: rgb(211, 131, 144);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button2:hover {
+    background-color: green;
+}
+.button2 a {
+    color: white;
+    text-decoration: none;
+}
+.icons{
+    position: relative;
+    top:-38rem;
+    left: 5rem;
+    flex-direction: row;
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+}
+
+.icons ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.icons li button{
+    cursor: pointer;
+    background-color:rgb(41, 40, 40);
+    border: 0;
+}
+.icons li button:hover {
+    background-color: pink;
+}
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    color: black;
+    position: relative;
+    top:-23rem;
+    left: 5rem;
+}
+footer p{
+    margin: 0;
+}
